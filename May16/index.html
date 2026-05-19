@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Kanban Board</title>
+</head>
+
+<body>
+    <!-- Search -->
+    <div id="main-container">
+        <input id="searchInput" type="text" placeholder="Search task title...">
+        <button id="addBtn">+</button>
+    </div>
+
+    <!-- popup -->
+    <div id="popup" class="popup">
+        <h2>Add Task</h2>
+        <input id="todoInput" type="text" placeholder="Add New Task...">
+        <select id="userInputPriority">
+            <option>Low</option>
+            <option>Medium</option>
+            <option>High</option>
+        </select>
+        <br>
+        <button id="submitBtn">Submit</button>
+        <button id="closeBtn">close</button>
+    </div>
+
+    <!-- Execution -->
+    <div>
+        <!-- Todo -->
+        <div id="todoContainer">
+            <h2>Todo (<span id="todoCount">0</span>)</h2>
+            <ul id="todoList"></ul>
+        </div>
+
+        <!-- In Progress -->
+        <div>
+            <h2>In Progress (<span id="progresscount">0</span>)</h2>
+            <ul id="progressList"></ul>
+        </div>
+
+        <!-- Done -->
+        <div>
+            <h2>Done (<span id="doneCount">0</span>)</h2>
+            <ul id="doneList"></ul>
+        </div>
+    </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
