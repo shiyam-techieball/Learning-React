@@ -1,0 +1,187 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --MAIN-COLOR: #262B3E;
+    --FONT-COLOR: #FFFFFF;
+    --SPAN-COLOR: #C9B38C;
+}
+
+body{
+    background-color: var(--MAIN-COLOR);
+}
+
+/* Location and Contact */
+.location-contact {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.location-contact .section-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    font-size: 1.1em;
+    color: var(--FONT-COLOR);
+}
+
+.section-container .material-symbols-outlined{
+    color: var(--FONT-COLOR);
+}
+
+.section-container span{
+    color: var(--SPAN-COLOR);
+}
+
+.section-container p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    padding: 0 80px;
+}
+/* Navbar */
+.main-nav{
+    background-color: #1c202E;
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5em;
+}
+
+.nav-container{
+    display: flex;
+    justify-content:space-between ;
+  width: 100%;
+}
+
+/* Balanced Scale */
+.nav-container .balanced{
+    background-color: var(--SPAN-COLOR);
+    width: 18%;
+    padding: 1.2em;
+}
+
+/* Navigation Link */
+.nav-container .navigation-link{
+    
+  
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    gap: 25px;
+    font-size: 1.2em;
+    padding-right: 20px;
+}
+
+.navigation-link a{
+    text-decoration: none;
+    color: var(--FONT-COLOR);
+}
+
+.navigation-link a:hover{
+    color: var(--SPAN-COLOR);
+}
+
+
+
+/* Hero Section */
+
+main{
+    display: flex;
+    justify-content: center;
+}
+
+.hero-banner{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+    width: 80%;
+}
+
+/* Legal Partner */
+/* .hero-banner .legal-Partner{
+    background-color: rgb(116, 110, 98);
+} */
+
+.legal-Partner .promo-hero{
+    padding-top: 5em;
+}
+
+.promo-hero p{
+    font-size: 5em;
+    font-weight: bolder;
+    color: var(--SPAN-COLOR);
+}
+
+/* ----------not finished--------- */
+.promo-hero span{
+    color: #FFFFFF;
+}
+
+.promo-hero .hero-span{
+    word-spacing: 5em;
+}
+
+.promo-hero div{
+    background-color: #1c202E;
+    width: 75%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6em;
+    margin-top: 1.2em;
+    color: var(--SPAN-COLOR);
+}
+
+/* image */
+.hero-banner .image{
+    /* background-color:  rgb(60, 52, 36); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+/* Award */
+.divion-lawyer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.divion-lawyer-section{
+    display: flex;
+    gap: 20px;
+}
+
+.divion-lawyer-section div{
+    width: 390px;
+    height: 200px;
+    background-color: #1c202E;
+    color: #677491;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1em;
+
+}
+.divion-lawyer-section .award-span ,.award-i{
+    font-size: 3em;
+}
+
+.divion-lawyer-section i{
+    color: var(--SPAN-COLOR);
+}
+
+.divion-lawyer-section span{
+    color: var(--FONT-COLOR);
+}
+
